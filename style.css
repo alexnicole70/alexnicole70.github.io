@@ -1,0 +1,118 @@
+body {
+  background: url("https://i.imgur.com/FMsf7wY.jpg");
+  background-size: 500px auto;
+  background-repeat: repeat;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #1eb7fa;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #fc7988;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f07382;
+  color: white;
+}
+
+.introduction {
+  background-color: rgba(17, 52, 98, 0.9);
+}
+
+.stack-top {
+  z-index: 9;
+}
+
+.introduction h1 {
+  color: #88c0db;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 0px;
+  font-family: "Domine", serif;
+  padding: 20px;
+}
+
+.introduction h2 {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.profile-pic {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 170px 0 0;
+}
+
+.short {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.short h1 {
+  text-align: center;
+  font-family: "Domine", serif;
+  color: white;
+}
+
+.short h2 {
+  color: white;
+  padding: 0 20px 0 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.short h3 {
+  color: white;
+  padding: 0 20px 0 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
+.designing-short {
+  float: left;
+  background-color: #f07382;
+  font-size: 14px;
+  width: 33%;
+}
+
+.photography-short {
+  float: left;
+  background-color: #1eb7fa;
+  width: 34%;
+}
+
+.french-short {
+  float: left;
+  background-color: #88c0db;
+  width: 33%;
+}
