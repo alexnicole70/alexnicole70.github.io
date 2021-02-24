@@ -1,5 +1,5 @@
 body {
-  background: url("https://i.imgur.com/FMsf7wY.jpg");
+  background-color: #f7e999;
   background-size: 500px auto;
   background-repeat: repeat;
 }
@@ -40,7 +40,9 @@ body {
 }
 
 .introduction {
-  background-color: rgba(17, 52, 98, 0.9);
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .stack-top {
@@ -59,7 +61,7 @@ body {
 
 .introduction h2 {
   text-align: center;
-  color: white;
+  color: #88c0db;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
@@ -115,4 +117,8 @@ body {
   float: left;
   background-color: #88c0db;
   width: 33%;
+}
+
+.introduction-text {
+  color: aqua;
 }
