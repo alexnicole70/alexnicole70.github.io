@@ -1,0 +1,40 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #e4cf52;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="1" width="1918.34" height="1079.5"/>
+    </clipPath>
+  </defs>
+  <g id="Artwork_5" data-name="Artwork 5">
+    <g class="cls-2">
+      <g id="Rectangle_1" data-name="Rectangle 1">
+        <rect class="cls-3" x="1" width="434.4" height="1079.5"/>
+      </g>
+      <g id="Rectangle_1_copy" data-name="Rectangle 1 copy">
+        <rect class="cls-3" x="652.1" width="815.87" height="407.43"/>
+      </g>
+      <g id="Rectangle_1_copy_3" data-name="Rectangle 1 copy 3">
+        <rect class="cls-3" x="1547.85" y="279.61" width="371.48" height="372.48"/>
+      </g>
+      <g id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2">
+        <rect class="cls-3" x="1176.37" y="716.01" width="741.97" height="362.5"/>
+      </g>
+      <image id="Artwork_4" data-name="Artwork 4" width="417" height="589" transform="translate(19.97 32.95)" xlink:href="volunteer1.png"/>
+      <image id="Artwork_3" data-name="Artwork 3" width="474" height="672" transform="translate(435.4 407.43)" xlink:href="volunteer2.png"/>
+      <image id="Artwork_2" data-name="Artwork 2" width="461" height="652" transform="translate(908.74 0)" xlink:href="volunteer3.png"/>
+      <image id="Artwork_5-2" data-name="Artwork 5" width="470" height="665" transform="translate(1369.1 357.5)" xlink:href="volunteer4.png"/>
+    </g>
+  </g>
+</svg>
