@@ -1,0 +1,45 @@
+/*
+body {
+    background-image: url("images/frenchbackground.png");
+    background-size: cover;
+    background-repeat:   no-repeat;
+}*/
+
+body {
+  background-color: #fdf8e0;
+  border-image-source: url(images/frenchBorder.png);
+  border-image-slice: 717 814 725 811;
+  border-image-width: 80px 80px 80px 80px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat repeat;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 7em;
+}
+.logo img {
+  width: 30em;
+}
+
+.article {
+  width: 75%;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 7em;
+}
+
+.article p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20pt;
+}
+
+.article h5 {
+  font-family: "Domine", serif;
+  font-size: 20pt;
+}
+
+.article .intro {
+  font-family: "Domine", serif;
+  font-size: 30pt;
+}
