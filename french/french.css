@@ -12,6 +12,7 @@ body {
   border-image-width: 80px 80px 80px 80px;
   border-image-outset: 0px 0px 0px 0px;
   border-image-repeat: repeat repeat;
+  border-style: solid;
 }
 
 .logo {
