@@ -1,0 +1,95 @@
+:root {
+  --main-bg-color: #f07382;
+}
+
+body {
+  background-color: var(--main-bg-color) !important;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  font-family: "Domine", serif;
+  color: white;
+  margin: 0.5em auto;
+}
+
+.card h6 {
+  font-family: "Domine", serif;
+}
+.card p {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  text-align: left;
+  padding: 1em;
+  justify-content: center;
+  border: none !important;
+  border-radius: 0 !important;
+  height: 100%;
+}
+
+.card-wrapper {
+  padding: 1em;
+}
+
+.card-image {
+  display: flex;
+}
+.card-image img {
+  padding: 0.25em;
+}
+
+#card-5 .overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#card-5 .overlay .img-text-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  padding: 0.5em;
+}
+.card-image-col {
+  width: 20em;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.card-image-col img {
+  padding: 0;
+}
+
+#card-2,
+#card-8 {
+  background-color: #f7e999;
+}
+#card-3,
+#card-7 {
+  background-color: #65d6d1;
+  color: white;
+}
+#card-9 .overlay {
+  padding: 0;
+}
+#card-9 .overlay .img-text-box {
+  padding: 0.5em;
+  background-color: #f7e999;
+}
+
+.two-card-col {
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+.two-card-col .card {
+  justify-content: space-evenly;
+  height: auto;
+}
