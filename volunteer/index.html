@@ -3,17 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Volunteer works</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Domine&family=Roboto:wght@300&display=swap"
+    rel="stylesheet"
+  />
     <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
     <link
       rel="stylesheet"
       href="https://unpkg.com/pageable@latest/dist/pageable.min.css"
     />
+    <script src="ImageMapResizer.js"></script>
+    <link rel="stylesheet" href="volunteer.css">
   </head>
   <body>
     <div id="container">
       <div class="page-1">
-        <h1>page 1</h1>
+       <div class="inner">
+        <img src="images/volunteer-SPS-2logo.png" class="img-fluid" style="z-index: 3000;"/> 
+        <img src="images/volunteer-SPS-2glow-star-2.png" class="img-fluid" style="z-index: 100;"/>
+        <img src="images/volunteer-SPS-2star-2.png" class="img-fluid" style="z-index: 120;"/> 
+
+        <img src="images/volunteer-SPS-2glow-star-1.png" class="img-fluid" style="z-index: 10;"/>
+        <img src="images/volunteer-SPS-2star-1.png" class="img-fluid" style="z-index: 20;"/> 
+        <img src="images/volunteer-SPS-2background.png" class="img-fluid" style="z-index: 1;"/>
+       </div>
       </div>
       <div class="page-2">
         <h1>page 2</h1>
@@ -27,6 +48,7 @@
     </div>
 
     <script>
+      imageMapResize();
       var pa = new Pageable("#container", {
         freeScroll: false,
         infinite: false,
