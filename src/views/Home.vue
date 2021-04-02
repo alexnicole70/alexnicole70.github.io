@@ -28,7 +28,7 @@
         </div>
         <div class="profile-pic">
           <img
-            src="assets/imgs/m8rP9er.png"
+            src="@/assets/profile_pic.png"
             alt="my picture"
             class="profile-pic"
           />
