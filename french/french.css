@@ -15,6 +15,19 @@ body {
   border-style: solid;
 }
 
+.nav-icon {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.nav-icon a {
+  opacity: 60%;
+  color: black;
+}
+
+.nav-icon a:visited{
+  color: black;
+}
 .logo {
   text-align: center;
   margin-top: 7em;
