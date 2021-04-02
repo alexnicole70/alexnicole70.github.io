@@ -39,10 +39,12 @@ body {
   color: white;
 }
 
+
 .introduction {
-  display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  display:flex;
+  padding-top:50px;
+  padding-bottom:50px;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .stack-top {
@@ -57,13 +59,16 @@ body {
   margin-top: 0px;
   font-family: "Domine", serif;
   padding: 20px;
+  margin-left: 70px;
 }
 
-.introduction h2 {
+.introduction p {
   text-align: center;
-  color: #88c0db;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  margin-left: 70px;
+  font-size: x-large;
 }
 
 .profile-pic {
@@ -71,7 +76,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 170px 0 0;
+  padding: 0 120px 0 0;
 }
 
 .short {
@@ -86,11 +91,12 @@ body {
   color: white;
 }
 
-.short h2 {
+.short p {
   color: white;
   padding: 0 20px 0 20px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: large;
 }
 
 .short h3 {
@@ -117,8 +123,4 @@ body {
   float: left;
   background-color: #88c0db;
   width: 33%;
-}
-
-.introduction-text {
-  color: aqua;
 }
