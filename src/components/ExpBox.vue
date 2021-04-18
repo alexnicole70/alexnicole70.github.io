@@ -1,31 +1,25 @@
 <template>
-  <div class="exp-box">
-    <h3>{{ timeFrame }}</h3>
-    <div class="box">
-      <div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          id="box-svg"
-          viewBox="0 0 500 500"
-        >
+  <div class="exp-box block">
+    <div class="background">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 547 562">
+        <g id="text">
           <g>
             <polyline
               class="cls-19"
-              points="60.09 69.24 4 69.24 4 562.18 60.09 562.18"
-              id="polyline168"
-              transform="matrix(0.99850444,0,0,0.99812281,-1.3145761e-4,-65.117401)"
+              points="59.92 65.06 3.84 65.06 3.84 558 59.92 558"
             />
             <polyline
               class="cls-19"
-              points="487 562.18 543.09 562.18 543.09 69.24 487 69.24"
-              id="polyline170"
-              transform="matrix(0.9985034,0,0,0.99812321,-46.27116,-65.117558)"
+              points="486.84 558 542.92 558 542.92 65.06 486.84 65.06"
             />
           </g>
-        </svg>
-      </div>
-      <div class="overlay">
-        <h3>{{ title }}</h3>
+        </g>
+      </svg>
+    </div>
+    <div class="overlay">
+      <h3 class="timeframe">{{ timeFrame }}</h3>
+      <div class="inner">
+        <h3 class="title">{{ title }}</h3>
         <ul>
           <li v-for="(desc, ix) in descriptions" :key="ix">{{ desc }}</li>
         </ul>
@@ -40,53 +34,140 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@media screen and (max-width: 425px) {
-  .box {
-    width: 17em;
-    height: 17em;
-  }
-  h3 {
-    font-size: 1rem;
-  }
-  li {
-    font-size: 0.6rem;
-  }
+.block {
+  margin: 1vw 2vw;
+  display: flex; /* required */
+  flex-flow: row nowrap; /* required */
 }
-@media screen and (min-width: 426px) {
-  .box {
-    width: 25em;
-    height: 25em;
-  }
-  h3 {
-    font-size: 1.75rem;
-  }
+.block .background,
+.block .overlay {
+  box-sizing: border-box; /* required */
+  width: 100%; /* required */
+  flex: none; /* required */
 }
 
-.box {
-  margin: 0 auto;
-  position: relative;
-  position: relative;
+.block .overlay {
+  margin-left: -100%; /* required */
 }
 
 .exp-box {
-  font-family: Roboto;
   h3 {
-    color: #febf35;
-    text-align: center;
+    font-family: Roboto-Regular, Roboto;
+    font-weight: normal;
+    color: #65d6d1;
   }
-  margin: 1em;
+  .timeframe {
+    font-size: 2vw;
+    margin-bottom: 2vw;
+  }
+  .inner {
+    margin: 1.5vw;
+    .title {
+      font-size: 2vw;
+    }
+    li {
+      font-size: 0.9vw;
+      list-style: square;
+      font-family: Roboto-Light, Roboto;
+      font-weight: lighter;
+      color: #666
+    }
+  }
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 1em;
+.cls-1 {
+  font-size: 20px;
+  fill: #666;
 }
+
+.cls-1,
+.cls-20 {
+  font-family: Roboto-Light, Roboto;
+  font-weight: 300;
+}
+
+.cls-2 {
+  letter-spacing: -0.06em;
+}
+
+.cls-3 {
+  letter-spacing: -0.01em;
+}
+
+.cls-4 {
+  letter-spacing: -0.01em;
+}
+
+.cls-5 {
+  letter-spacing: -0.01em;
+}
+
+.cls-6 {
+  letter-spacing: -0.05em;
+}
+
+.cls-7 {
+  letter-spacing: -0.01em;
+}
+
+.cls-8 {
+  letter-spacing: 0.02em;
+}
+
+.cls-9 {
+  letter-spacing: -0.01em;
+}
+
+.cls-10 {
+  letter-spacing: -0.01em;
+}
+
+.cls-11 {
+  letter-spacing: -0.06em;
+}
+
+.cls-12 {
+  letter-spacing: -0.05em;
+}
+
+.cls-13 {
+  letter-spacing: -0.02em;
+}
+
+.cls-14 {
+  letter-spacing: -0.04em;
+}
+
+.cls-15,
+.cls-20 {
+  font-size: 40px;
+  fill: #65d6d1;
+}
+
+.cls-15 {
+  font-family: Roboto-Regular, Roboto;
+}
+
+.cls-16 {
+  letter-spacing: -0.02em;
+}
+
+.cls-17 {
+  letter-spacing: -0.01em;
+}
+
+.cls-18 {
+  letter-spacing: 0em;
+}
+
 .cls-19 {
   fill: none;
-  stroke: #febf35;
+  stroke: #65d6d1;
   stroke-miterlimit: 10;
   stroke-width: 8px;
+}
+
+.cls-21 {
+  letter-spacing: -0.01em;
 }
 </style>
