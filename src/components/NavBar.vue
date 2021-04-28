@@ -2,14 +2,17 @@
   <div>
     <nav class="navbar navbar-light nav-bar">
       <div style="width: 80%">
-        <div class="home-logo"><alex-logo :colors="colors"/></div>
+        <router-link to="/">
+          <div class="home-logo"><alex-logo :colors="colors" /></div>
+        </router-link>
       </div>
       <div class="home-button">
-        <home-button />
+        <router-link to="/"> <home-button /></router-link>
       </div>
       <div>
         <ul>
           <li><a href="#passions">Passions</a></li>
+          <li><router-link to="/designs/">Designs</router-link></li>
           <li><a href="#volunteering">Volunteering</a></li>
           <li><a href="#works">Works</a></li>
           <li><a href="#projects">UX Projects</a></li>
