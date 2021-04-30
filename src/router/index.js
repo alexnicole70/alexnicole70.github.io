@@ -1,44 +1,67 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "../views/Home.vue";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
+    path: "/",
+    name: "Home",
+    component: Home,
   },
   {
-    path: '/designs',
-    name: 'Designs',
-    component: () => import(/* webpackChunkName: "designs" */ '../views/Designs.vue')
+    path: "/designs",
+    name: "Designs",
+    component: () =>
+      import(/* webpackChunkName: "designs" */ "../views/Designs.vue"),
   },
   {
-    path: '/volunteer/sps',
-    name: 'VolunteerSPS',
-    component: () => import(/* webpackChunkName: "volunteer_sps" */ '../views/Volunteer.vue')
+    path: "/volunteer",
+    name: "Volunteer",
+    component: () =>
+      import(/* webpackChunkName: "volunteer" */ "../views/Volunteer.vue"),
+    children: [
+      {
+        path: "sps",
+        name: "VolunteerSPS",
+        component: () =>
+          import(
+            /* webpackChunkName: "volunteer_sps" */ "../components/VolunteerSPS.vue"
+          ),
+      },
+      {
+        path: "mymca/yes",
+        name: "VolunteerMYMCAYes",
+        component: () =>
+          import(
+            /* webpackChunkName: "volunteer_mymca_yes" */ "../components/VolunteerMYMCAYes.vue"
+          ),
+      },
+      {
+        path: "mymca/prsc",
+        name: "VolunteerMYMCAPRSC",
+        component: () =>
+          import(
+            /* webpackChunkName: "volunteer_mymca_prsc" */ "../components/VolunteerMYMCASummerCamp.vue"
+          ),
+      },
+      {
+        path: "mymca/mentoring",
+        name: "VolunteerMYMCAMentoring",
+        component: () =>
+          import(
+            /* webpackChunkName: "volunteer_mymca_mentoring" */ "../components/VolunteerMYMCAMentoring.vue"
+          ),
+      },
+    ],
   },
-  // {
-  //   path: '/about',
-  //   name: 'About',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  // },
-  // {
-  //   path: '/works',
-  //   name: 'Works',
-  //   component: () => import(/* webpackChunkName: "works" */ '../views/Works.vue')
-  // }
-]
+];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

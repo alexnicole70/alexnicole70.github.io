@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid design-page">
-    <h1>My Designs</h1>
+    <h1 class="title">My Designs</h1>
     <div class="card-container d-flex flex-column">
       <div class="d-flex flex-row card-row">
         <div class="kard d-flex flex-row" id="card-1">
@@ -295,6 +295,13 @@ $bg-pink: #f07382;
 $bg-white: #fff8ef;
 $bg-yellow: #f7e999;
 $bg-green: #65d6d1;
+
+h1.title {
+  font-family: "Domine", serif;
+  color: $bg-white;
+  padding: 1em;
+}
+
 .design-page {
   background-color: $bg-pink;
   text-align: center;
@@ -472,5 +479,6 @@ $bg-green: #65d6d1;
 #card-11,
 #card-13 {
   background-color: $bg-green;
+  
 }
 </style>
