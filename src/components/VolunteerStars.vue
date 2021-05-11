@@ -393,20 +393,22 @@
         </g>
         <g id="stars">
           <g id="Layer_7" data-name="Layer 7">
-            <g id="page-1-hover-b">
+            <g id="page-1-hover-b" class="hoverable">
               <image
                 width="876"
                 height="886"
                 transform="translate(1133 236)"
                 xlink:href="../assets/stars/stars_1.png"
+                class="hoverable"
               />
             </g>
-            <g id="page-1-hover-a" class="cls-12">
+            <g id="page-1-hover-a" class="cls-12 hoverable">
               <image
                 width="1062"
                 height="1096"
                 transform="translate(291 81)"
                 xlink:href="../assets/stars/stars_2.png"
+                class="hoverable"
               />
             </g>
             <image
@@ -557,4 +559,23 @@ export default {};
 // .cls-18 {
 //   clip-path: url(#clip-path-2);
 // }
+
+#page-1-hover-b {
+  opacity: 0;
+}
+#page-1-hover-b:hover {
+  opacity: 100;
+}
+#page-1-hover-a {
+  opacity: 0;
+}
+#page-1-hover-a:hover {
+  opacity: 100;
+}
+#Layer_7,
+#text {
+  :not(.hoverable) {
+    pointer-events: none;
+  }
+}
 </style>

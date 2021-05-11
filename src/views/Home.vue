@@ -1,11 +1,11 @@
 <template>
   <div class="about">
     <home-intro />
-    <passions />
-    <volunteer-stars />
-    <work-exp />
-    <home-skills />
-    <contact-me />
+    <passions id="passions" />
+    <volunteer-stars id="volunteering" />
+    <work-exp id="works" />
+    <home-skills id="skills" />
+    <contact-me id="contact" />
   </div>
 </template>
 <script>
