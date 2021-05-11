@@ -573,7 +573,7 @@ export default {};
   opacity: 100;
 }
 #Layer_7,
-#text {
+#text, #pictures {
   :not(.hoverable) {
     pointer-events: none;
   }
