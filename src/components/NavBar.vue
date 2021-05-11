@@ -13,16 +13,174 @@
         <router-link to="/"> <home-button /></router-link>
       </div>
       <div>
-        <ul>
-          <li><a href="#passions">Passions</a></li>
-          <li><router-link to="/designs/">Designs</router-link></li>
-          <li><a href="#volunteering">Volunteering</a></li>
-          <li><router-link to="/volunteer/sps/">SPS</router-link></li>
-          <li><router-link to="/volunteer/mymca/">MYMCA</router-link></li>
-          <li><a href="#works">Works</a></li>
-          <li><a href="#projects">UX Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact Me</a></li>
+        <ul class="primary-nav">
+          <li>
+            <a
+              href="#passions"
+              @click="
+                currentSelection = currentSelection
+                  ? currentSelection === 'passions'
+                    ? null
+                    : 'passions'
+                  : 'passions'
+              "
+              :class="navClass('passions')"
+              >Passions</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="#volunteering"
+              @click="
+                currentSelection = currentSelection
+                  ? currentSelection === 'volunteering'
+                    ? null
+                    : 'volunteering'
+                  : 'volunteering'
+              "
+              :class="navClass('volunteering')"
+              >Volunteering</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="#works"
+              @click="
+                currentSelection = currentSelection
+                  ? currentSelection === 'works'
+                    ? null
+                    : 'works'
+                  : 'works'
+              "
+              :class="navClass('works')"
+              >Works</a
+            >
+          </li>
+          <li>
+            <a
+              href="#projects"
+              @click="
+                currentSelection = currentSelection
+                  ? currentSelection === 'projects'
+                    ? null
+                    : 'projects'
+                  : 'projects'
+              "
+              :class="navClass('projects')"
+              >UX Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#skills"
+              @click="
+                currentSelection = currentSelection
+                  ? currentSelection === 'skills'
+                    ? null
+                    : 'skills'
+                  : 'skills'
+              "
+              :class="navClass('skills')"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              @click="
+                currentSelection = currentSelection
+                  ? currentSelection === 'contact'
+                    ? null
+                    : 'contact'
+                  : 'contact'
+              "
+              :class="navClass('contact')"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <ul
+          v-if="currentSelection === 'passions'"
+          class="secondary-nav"
+          id="passions-nav"
+        >
+          <li
+            @click="
+              secondarySelection = secondarySelection
+                ? secondarySelection === 'designs'
+                  ? null
+                  : 'designs'
+                : 'designs'
+            "
+          >
+            <router-link to="/designs/" :class="secondaryNavClass('designs')"
+              >Designs</router-link
+            >
+          </li>
+          <li
+            @click="
+              secondarySelection = secondarySelection
+                ? secondarySelection === 'photography'
+                  ? null
+                  : 'photography'
+                : 'photography'
+            "
+          >
+            <router-link
+              to="/photography/"
+              :class="secondaryNavClass('photography')"
+              >Photography</router-link
+            >
+          </li>
+          <li
+            @click="
+              secondarySelection = secondarySelection
+                ? secondarySelection === 'french'
+                  ? null
+                  : 'french'
+                : 'french'
+            "
+          >
+            <router-link to="/french/" :class="secondaryNavClass('french')"
+              >French</router-link
+            >
+          </li>
+        </ul>
+        <ul
+          v-if="currentSelection === 'volunteering'"
+          class="secondary-nav"
+          id="volunteer-nav"
+        >
+          <li
+            @click="
+              secondarySelection = secondarySelection
+                ? secondarySelection === 'sps'
+                  ? null
+                  : 'sps'
+                : 'sps'
+            "
+          >
+            <router-link to="/volunteer/sps/" :class="secondaryNavClass('sps')"
+              >SPS</router-link
+            >
+          </li>
+          <li
+            @click="
+              secondarySelection = secondarySelection
+                ? secondarySelection === 'mymca'
+                  ? null
+                  : 'mymca'
+                : 'mymca'
+            "
+          >
+            <router-link
+              to="/volunteer/mymca/yes"
+              :class="secondaryNavClass('mymca')"
+              >MYMCA</router-link
+            >
+          </li>
         </ul>
       </div>
     </nav>
@@ -53,10 +211,28 @@ export default {
   data() {
     return {
       bgColor: "#65d6d1",
+
+      currentSelection: null,
+      secondarySelection: null,
     };
   },
   components: { HomeButton, AlexLogo },
   props: ["colors"],
+  computed: {},
+  methods: {
+    navClass(v) {
+      if (this.currentSelection === v || !this.currentSelection) {
+        return "isActive";
+      }
+      return "";
+    },
+    secondaryNavClass(v) {
+      if (this.secondarySelection === v || !this.secondarySelection) {
+        return "isActive";
+      }
+      return "";
+    },
+  },
   watch: {
     $route() {
       console.log(
@@ -66,6 +242,7 @@ export default {
       this.bgColor = bgColor;
     },
   },
+
   mounted() {},
 };
 </script>
@@ -106,5 +283,14 @@ nav.navbar {
   width: 10em;
   margin: 1em;
   margin-left: 0;
+}
+.primary-nav,
+.secondary-nav {
+  .isActive {
+    color: white !important;
+  }
+  :not(.isActive) {
+    color: #ffffff75 !important;
+  }
 }
 </style>
