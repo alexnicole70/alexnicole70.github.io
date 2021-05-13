@@ -1024,73 +1024,41 @@
             />
           </g>
           <g id="text-3" data-name="text">
-            <text class="cls-14" transform="translate(385.44 281.07)">
-              Di
-              <tspan class="cls-15" x="64.68" y="0">r</tspan>
-              <tspan x="91.86" y="0">ecting</tspan>
-              <tspan class="cls-16" x="-166.29" y="72">Y</tspan>
-              <tspan x="-130.59" y="72">outh Emp</tspan>
-              <tspan class="cls-17" x="153.39" y="72">o</tspan>
-              <tspan class="cls-18" x="187.53" y="72">w</tspan>
-              <tspan class="cls-19" x="239.25" y="72">erment</tspan>
-              <tspan x="25.89" y="144">P</tspan>
-              <tspan class="cls-15" x="63.75" y="144">r</tspan>
-              <tspan class="cls-20" x="90.93" y="144">o</tspan>
-              <tspan x="125.61" y="144">jects</tspan>
-            </text>
-            <text class="cls-21" transform="translate(176.15 115.07)">
-              <tspan class="cls-22">M</tspan>
-              <tspan x="57.42" y="0">et</tspan>
-              <tspan class="cls-20" x="112.68" y="0">r</tspan>
-              <tspan x="140.88" y="0">opolitan</tspan>
-              <tspan class="cls-23" x="384.96" y="0"></tspan>
-              <tspan x="397.14" y="0">Y</tspan>
-              <tspan class="cls-24" x="438.06" y="0">M</tspan>
-              <tspan x="496.08" y="0">C</tspan>
-              <tspan class="cls-25" x="537.96" y="0">A</tspan>
-              <tspan x="579.6" y="0" xml:space="preserve">Singapo</tspan>
-              <tspan class="cls-26" x="832.01" y="0">r</tspan>
-              <tspan x="860.21" y="0">e-</tspan>
-              <tspan class="cls-25" x="915.83" y="0"></tspan>
-              <tspan class="cls-27" x="927.95" y="0">V</tspan>
-              <tspan x="967.91" y="0">oluntee</tspan>
-              <tspan class="cls-28" x="1191.29" y="0">r</tspan>
-              <tspan x="1218.41" y="0" xml:space="preserve">Experience</tspan>
-            </text>
-            <polyline
-              class="cls-29"
-              points="190.38 202.84 157.44 202.84 157.44 474.48 190.38 474.48"
-            />
-            <polyline
-              class="cls-29"
-              points="1739.44 475.48 1772.42 475.75 1772.38 202.84 1739.44 202.84"
-            />
-            <text class="cls-30" transform="translate(897.1 280.54)">
-              I di
-              <tspan class="cls-31" x="51.56" y="0">r</tspan>
-              <tspan x="64.65" y="0">ect 3 p</tspan>
-              <tspan class="cls-32" x="182.56" y="0">r</tspan>
-              <tspan x="195.63" y="0">ojects during my time at the</tspan>
-              <tspan x="0" y="48">Met</tspan>
-              <tspan class="cls-32" x="68.13" y="48">r</tspan>
-              <tspan x="81.19" y="48">opolitan YMCA Singapo</tspan>
-              <tspan class="cls-31" x="494.12" y="48">r</tspan>
-              <tspan x="507.21" y="48">e.</tspan>
-              <tspan class="cls-33" x="537.42" y="48"></tspan>
-              <tspan x="546.37" y="48">These p</tspan>
-              <tspan class="cls-32" x="685.68" y="48">r</tspan>
-              <tspan x="698.75" y="48">ojects</tspan>
-              <tspan x="0" y="96">honned my communications skills with</tspan>
-              <tspan class="cls-34" x="690.49" y="96">y</tspan>
-              <tspan x="709.2" y="96">outh</tspan>
-              <tspan x="0" y="144">and d</tspan>
-              <tspan class="cls-35" x="97.58" y="144">ev</tspan>
-              <tspan x="136.97" y="144">eloped my empathy</tspan>
-              <tspan class="cls-32" x="491.21" y="144">t</tspan>
-              <tspan x="503.67" y="144">owa</tspan>
-              <tspan class="cls-31" x="577.66" y="144">r</tspan>
-              <tspan x="590.74" y="144">ds them.</tspan>
-            </text>
+            <g class="tab-header">
+              <text class="cls-14" transform="translate(385.44 281.07)">
+                <tspan>Directing</tspan>
+                <tspan x="-166.29" y="72">Youth Empowerment</tspan>
+                <tspan y="144" x="0">Projects</tspan>
+              </text>
+              <text class="cls-21" transform="translate(176.15 115.07)">
+                <tspan>
+                  Metropolitan YMCA Singapore - Volunteer Experience
+                </tspan>
+              </text>
+              <foreignObject
+                transform="translate(897.1 220.54)"
+                height="250.29916"
+                width="830.53381"
+              >
+                <p
+                  xmlns="http://www.w3.org/1999/xhtml"
+                  class="cls-30 text-pink tab-header-p"
+                >
+                  I directed 3 projects during my time at the Metropolitan YMCA
+                  Singapore. These projects honned my communication skills with
+                  youths and developed my empathy towards them.
+                </p>
+              </foreignObject>
+              <polyline
+                class="cls-29"
+                points="190.38 202.84 157.44 202.84 157.44 474.48 190.38 474.48"
+              />
+              <polyline
+                class="cls-29"
+                points="1739.44 475.48 1772.42 475.75 1772.38 202.84 1739.44 202.84"
+              />
+            </g>
+
             <text class="cls-36" transform="translate(787.25 2167.88)">
               <tspan class="cls-37">W</tspan>
               <tspan x="39.68" y="0">orkshops :</tspan>
@@ -1658,5 +1626,14 @@ export default {};
 
 .cls-61 {
   letter-spacing: -0.04em;
+}
+
+.text-pink {
+  color: #f07382;
+}
+
+.tab-header-p {
+  padding: 0;
+  margin: 0;
 }
 </style>
