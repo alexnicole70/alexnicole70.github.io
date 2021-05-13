@@ -29,6 +29,46 @@ const routes = [
       import(/* webpackChunkName: "photography" */ "../views/Photography.vue"),
   },
   {
+    path: "/projects/playin_tune",
+    name: "PlayinTune",
+    component: () =>
+      import(/* webpackChunkName: "playin_tune" */ "../views/PlayinTune.vue"),
+    children: [
+      {
+        path: "mood-board",
+        name: "PlayinTuneMoodBoard",
+        component: () =>
+          import(
+            /* webpackChunkName: "playin_tune_mood_board" */ "../components/PlayinTuneMoodBoard.vue"
+          ),
+      },
+      {
+        path: "nav-map",
+        name: "PlayinTuneNavMap",
+        component: () =>
+          import(
+            /* webpackChunkName: "playin_tune_nav_map" */ "../components/PlayinTuneNavMap.vue"
+          ),
+      },
+      {
+        path: "buttons",
+        name: "PlayinTuneButtons",
+        component: () =>
+          import(
+            /* webpackChunkName: "playin_tune_buttons" */ "../components/PlayinTuneButtons.vue"
+          ),
+      },
+      {
+        path: "sketches",
+        name: "PlayinTuneSketches",
+        component: () =>
+          import(
+            /* webpackChunkName: "playin_tune_sketches" */ "../components/PlayinTuneSketches.vue"
+          ),
+      },
+    ],
+  },
+  {
     path: "/volunteer",
     name: "Volunteer",
     component: () =>

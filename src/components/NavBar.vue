@@ -74,7 +74,7 @@
           </li>
           <li>
             <a
-              href="#skills"
+              href="/#skills"
               @click="
                 currentSelection = currentSelection
                   ? currentSelection === 'skills'
@@ -179,6 +179,27 @@
               to="/volunteer/mymca/yes"
               :class="secondaryNavClass('mymca')"
               >MYMCA</router-link
+            >
+          </li>
+        </ul>
+        <ul
+          v-if="currentSelection === 'projects'"
+          class="secondary-nav"
+          id="projects-nav"
+        >
+          <li
+            @click="
+              secondarySelection = secondarySelection
+                ? secondarySelection === 'playin_tune'
+                  ? null
+                  : 'playin_tune'
+                : 'playin_tune'
+            "
+          >
+            <router-link
+              to="/projects/playin_tune/mood-board"
+              :class="secondaryNavClass('playin_tune')"
+              >PlayinTune</router-link
             >
           </li>
         </ul>
