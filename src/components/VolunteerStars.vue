@@ -393,7 +393,7 @@
         </g>
         <g id="stars">
           <g id="Layer_7" data-name="Layer 7">
-            <g id="page-1-hover-b" class="hoverable">
+            <g id="page-1-hover-b" class="hoverable" @click="navSPS">
               <image
                 width="876"
                 height="886"
@@ -402,7 +402,7 @@
                 class="hoverable"
               />
             </g>
-            <g id="page-1-hover-a" class="cls-12 hoverable">
+            <g id="page-1-hover-a" class="cls-12 hoverable" @click="navMYMCA">
               <image
                 width="1062"
                 height="1096"
@@ -470,7 +470,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    navMYMCA() {
+      
+      this.$router.push("/volunteer/mymca/yes").catch(() => {});
+    },
+     navSPS() {
+      
+      this.$router.push("/volunteer/sps").catch(() => {});
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -573,7 +584,8 @@ export default {};
   opacity: 100;
 }
 #Layer_7,
-#text, #pictures {
+#text,
+#pictures {
   :not(.hoverable) {
     pointer-events: none;
   }

@@ -122,4 +122,27 @@ export default {};
 .mood-board {
   padding: 2rem;
 }
+
+p,
+li,
+a {
+  font-family: filson-soft, sans-serif;
+}
+
+.credit-box {
+  background-color: #389fb3;
+  color: white;
+  padding: 2rem;
+  ul {
+    padding-left:0;
+    li {
+      list-style: none;
+
+      a {
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+}
 </style>

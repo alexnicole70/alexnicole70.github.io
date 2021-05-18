@@ -16,7 +16,7 @@
         <ul class="primary-nav">
           <li>
             <a
-              href="#passions"
+              href="/#passions"
               @click="
                 currentSelection = currentSelection
                   ? currentSelection === 'passions'
@@ -25,13 +25,13 @@
                   : 'passions'
               "
               :class="navClass('passions')"
-              >Passions</a
+              >Passion</a
             >
           </li>
 
           <li>
             <a
-              href="#volunteering"
+              href="/#volunteering"
               @click="
                 currentSelection = currentSelection
                   ? currentSelection === 'volunteering'
@@ -46,7 +46,7 @@
 
           <li>
             <a
-              href="#works"
+              href="/#works"
               @click="
                 currentSelection = currentSelection
                   ? currentSelection === 'works'
@@ -55,12 +55,12 @@
                   : 'works'
               "
               :class="navClass('works')"
-              >Works</a
+              >Work Exp.</a
             >
           </li>
           <li>
             <a
-              href="#projects"
+              href="/projects/playin_tune/mood-board"
               @click="
                 currentSelection = currentSelection
                   ? currentSelection === 'projects'
@@ -69,7 +69,7 @@
                   : 'projects'
               "
               :class="navClass('projects')"
-              >UX Projects</a
+              >UX Project</a
             >
           </li>
           <li>
@@ -88,7 +88,7 @@
           </li>
           <li>
             <a
-              href="#contact"
+              href="/#contact"
               @click="
                 currentSelection = currentSelection
                   ? currentSelection === 'contact'
@@ -116,7 +116,7 @@
             "
           >
             <router-link to="/designs/" :class="secondaryNavClass('designs')"
-              >Designs</router-link
+              >Design</router-link
             >
           </li>
           <li
@@ -182,7 +182,7 @@
             >
           </li>
         </ul>
-        <ul
+        <!-- <ul
           v-if="currentSelection === 'projects'"
           class="secondary-nav"
           id="projects-nav"
@@ -202,7 +202,7 @@
               >PlayinTune</router-link
             >
           </li>
-        </ul>
+        </ul> -->
       </div>
     </nav>
   </div>
@@ -217,6 +217,10 @@ const ROUTE_COLOR = {
   VolunteerMYMCAYes: "#f07382",
   VolunteerMYMCAPRSC: "#f07382",
   VolunteerMYMCAMentoring: "#f07382",
+  PlayinTuneMoodBoard: "#EABA00",
+  PlayinTuneNavMap: "#EABA00",
+  PlayinTuneButtons: "#EABA00",
+  PlayinTuneSketches: "#EABA00",
 };
 
 function getFromObject(obj, key, defaultValue) {

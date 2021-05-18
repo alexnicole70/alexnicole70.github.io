@@ -275,7 +275,11 @@
               </p>
             </div>
             <div class="d-flex">
-              <p class="subtitle">Click here to view designs.</p>
+              <p class="subtitle">
+                <router-link to="/designs" class="router-link"
+                  >Click here to view designs.</router-link
+                >
+              </p>
             </div>
           </div>
           <div class="d-flex flex-column passion-card red-card">
@@ -288,7 +292,11 @@
               </p>
             </div>
             <div class="d-flex">
-              <p class="subtitle">Click here to view photographs.</p>
+              <p class="subtitle">
+                <router-link to="/photography" class="router-link"
+                  >Click here to view photographs.</router-link
+                >
+              </p>
             </div>
           </div>
           <div class="d-flex flex-column passion-card">
@@ -301,7 +309,11 @@
               </p>
             </div>
             <div class="d-flex">
-              <p class="subtitle">Click here to view writing sample.</p>
+              <p class="subtitle">
+                <router-link to="/french" class="router-link"
+                  >Click here to view writing sample.</router-link
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -339,7 +351,6 @@ export default {};
       font-family: Roboto-Light, Roboto;
       font-weight: lighter;
       font-size: 1.8vw;
-      
     }
     p.subtitle {
       font-family: Roboto-Light, Roboto;
@@ -358,6 +369,11 @@ export default {};
   .flex-wrapper {
     height: 100%;
   }
+}
+
+.router-link {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .cls-1 {

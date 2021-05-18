@@ -322,7 +322,7 @@ h1.title {
     text-align: left;
     .kard {
       flex-grow: 1;
-      border: 1px solid black;
+      // border: 1px solid black;
       background-color: $bg-white;
       margin: 0.5vw;
       img {

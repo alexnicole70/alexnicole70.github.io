@@ -24,7 +24,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .tab-text {
-  font-family: brother-1816, sans-serif;
+  font-family: filson-soft, sans-serif;
   fill: #ffffff;
 }
 </style>

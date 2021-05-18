@@ -27,7 +27,7 @@ export default {
   height: auto;
 
   .playin-tune {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 1vh;
   }

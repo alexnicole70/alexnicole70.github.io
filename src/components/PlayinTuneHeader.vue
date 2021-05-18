@@ -79,9 +79,13 @@ export default {
   margin: 2rem;
   justify-content: space-around;
 }
-.description{
-  h1, p {
-    font-family: Roboto-Light, Roboto;
+.description {
+  p,
+  li {
+    font-family: brother-1816-printed, sans-serif;
+  }
+  h1 {
+    font-family: filson-soft, sans-serif;
   }
 }
 </style>
