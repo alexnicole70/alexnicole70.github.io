@@ -613,9 +613,10 @@
           :perPageCustom="[
             [1, 1],
             [768, 2],
-            [1024, 3],
+            [1024, 2],
           ]"
           :perPage="1"
+          class="carousel"
         >
           <slide v-for="(workExp, ix) in workExperiences" :key="ix">
             <div class="exp-box-wrapper">
@@ -658,6 +659,16 @@ export default {
           ],
         },
         {
+          title:
+            "Civil Aviation Authority of Singapore (Singapore Aviaiton Academy)",
+          timeFrame: "Jul 2018- Nov 2018",
+          descriptions: [
+            "My 2 main research projects involved proposing methods to improve Facebook engagement amongst the academy’s alumni, and making reccomendations to elevate the ambiance during an upcoming revamp of certain facilities.",
+            "The target audience across both projects was expansive, and I had to be adaptable to cater research methods to each population.",
+            "The end products received positive receptions across departments and the director himself.",
+          ],
+        },
+        {
           title: "Inland Revenue Authority of Singapore (E-filing Officer)",
           timeFrame: "Feb 2016- Apr 2016",
           descriptions: [
@@ -673,17 +684,20 @@ export default {
 <style lang="scss" scoped>
 .overlay {
   .work-exp-carousel {
-    margin-top: 18vw;
+    margin-top: 15vw;
     //   width: 80%;
-    .exp-box-wrapper {
-      margin: 2em;
-      // height: 100px;
+    .carousel {
+      .exp-box-wrapper {
+        margin: 2em auto;
+        width: 70%;
+        // height: 100px;
+      }
     }
   }
 }
 
+
 .block {
-  
   display: flex; /* required */
   flex-flow: row nowrap; /* required */
 }

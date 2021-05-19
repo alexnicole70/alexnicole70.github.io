@@ -1,20 +1,23 @@
 <template>
   <div class="exp-box block">
     <div class="background">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 547 562">
-        <g id="text">
-          <g>
-            <polyline
-              class="cls-19"
-              points="59.92 65.06 3.84 65.06 3.84 558 59.92 558"
-            />
-            <polyline
-              class="cls-19"
-              points="486.84 558 542.92 558 542.92 65.06 486.84 65.06"
-            />
+      <div class="box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 697 562">
+          <g id="text">
+            <g>
+              <polyline
+                class="cls-19"
+                points="59.92 65.06 3.84 65.06 3.84 558 59.92 558"
+              />
+              <polyline
+                class="cls-19"
+                points="486.84 558 542.92 558 542.92 65.06 486.84 65.06"
+                transform="translate(150)"
+              />
+            </g>
           </g>
-        </g>
-      </svg>
+        </svg>
+      </div>
     </div>
     <div class="overlay">
       <h3 class="timeframe">{{ timeFrame }}</h3>
@@ -58,19 +61,21 @@ export default {
   }
   .timeframe {
     font-size: 2vw;
-    margin-bottom: 2vw;
   }
   .inner {
-    margin: 1.5vw;
+    margin: 1vw;
     .title {
-      font-size: 2vw;
+      font-size: 1.5rem;
     }
-    li {
-      font-size: 0.9vw;
-      list-style: square;
-      font-family: Roboto-Light, Roboto;
-      font-weight: lighter;
-      color: #666
+    ul {
+      padding-left: 0.5rem;
+      li {
+        font-size: .75rem;
+        list-style: square;
+        font-family: Roboto-Light, Roboto;
+        font-weight: lighter;
+        color: #666;
+      }
     }
   }
 }
