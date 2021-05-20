@@ -4,7 +4,7 @@
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 0 1918 990"
+        viewBox="0 0 1918 1188"
       >
         <defs>
           <pattern
@@ -218,7 +218,7 @@
           </pattern>
         </defs>
         <g class="cls-3">
-          <g id="background">
+          <g id="background" transform="scale(1, 1.2)">
             <rect class="cls-4" y="-1" width="1916" height="991" />
             <rect class="cls-5" y="-1" width="1919" height="991" />
             <g class="cls-6">
@@ -613,7 +613,7 @@
           :perPageCustom="[
             [1, 1],
             [768, 2],
-            [1024, 2],
+            [1024, 3],
           ]"
           :perPage="1"
           class="carousel"
@@ -642,6 +642,14 @@ export default {
     return {
       workExperiences: [
         {
+          title: "NUS Centre for Family and Population Research",
+          timeFrame: "Jul 2019 - Mar 2020",
+          descriptions: [
+            "I was part of a research team investigating the pre-natal and post-natal development of infants in relation to their family background.",
+            "From heading down to hospitals to survey participants, following up with them over the phone, and conducting the experiements with their children, this experiment taught me about how to communicate confidently and professionally.",
+          ],
+        },
+        {
           title: "Undergraduate Research Opportunity (NUS)",
           timeFrame: "Jul 2019 - Nov 2019",
           descriptions: [
@@ -650,14 +658,7 @@ export default {
             "Additionally, I conducted a literature review concerning the long-term impact of parental metacognitions on children’s identity formation",
           ],
         },
-        {
-          title: "NUS Centre for Family and Population Research",
-          timeFrame: "Jul 2019- Mar 2020",
-          descriptions: [
-            "I was part of a research team investigating the pre-natal and post-natal development of infants in relation to their family background.",
-            "From heading down to hospitals to survey participants, following up with them over the phone, and conducting the experiements with their children, this experiment taught me about how to communicate confidently and professionally.",
-          ],
-        },
+
         {
           title:
             "Civil Aviation Authority of Singapore (Singapore Aviaiton Academy)",
@@ -684,18 +685,17 @@ export default {
 <style lang="scss" scoped>
 .overlay {
   .work-exp-carousel {
-    margin-top: 15vw;
+    margin-top: 17vw;
     //   width: 80%;
     .carousel {
       .exp-box-wrapper {
         margin: 2em auto;
-        width: 70%;
+        // width: 70%;
         // height: 100px;
       }
     }
   }
 }
-
 
 .block {
   display: flex; /* required */

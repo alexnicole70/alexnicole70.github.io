@@ -2,9 +2,9 @@
   <div class="exp-box block">
     <div class="background">
       <div class="box">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 697 562">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 697 758.7">
           <g id="text">
-            <g>
+            <g transform="scale(1, 1.35)">
               <polyline
                 class="cls-19"
                 points="59.92 65.06 3.84 65.06 3.84 558 59.92 558"
@@ -63,14 +63,15 @@ export default {
     font-size: 2vw;
   }
   .inner {
-    margin: 1vw;
+    margin: 3vw 2vw;
     .title {
-      font-size: 1.5rem;
+      font-size: 1.5vw;
+     
     }
     ul {
-      padding-left: 0.5rem;
+      padding-left: 1vw;
       li {
-        font-size: .75rem;
+        font-size: 1.1vw;
         list-style: square;
         font-family: Roboto-Light, Roboto;
         font-weight: lighter;
