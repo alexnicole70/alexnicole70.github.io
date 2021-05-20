@@ -86,7 +86,7 @@
               src="../assets/designs/card-5/chikorita.png"
               alt="Chikorita"
               class="card-img"
-              style="padding:0"
+              style="padding: 0"
             />
           </div>
           <div class="overlay">
@@ -105,9 +105,12 @@
         </div>
       </div>
       <div class="d-flex flex-row card-row">
-        <div class="d-flex flex-column" style="width: 50%;">
+        <div
+          class="d-flex flex-column"
+          style="width: 50%; justify-content: space-between"
+        >
           <div class="kard d-flex flex-row" id="card-6">
-            <div class="kard-images d-flex flex-row">
+            <div class="kard-images d-flex flex-column">
               <img
                 src="../assets/designs/card-6/vines.jpg"
                 alt="Vines"
@@ -116,13 +119,11 @@
             </div>
             <div class="kard-text">
               <h6>Vines</h6>
-              <p>
-                An interlacing of images that highlight the word’s meaning.
-              </p>
+              <p>An interlacing of images that highlight the word’s meaning.</p>
             </div>
           </div>
           <div class="kard d-flex flex-row" id="card-7b">
-            <div class="kard-images d-flex flex-row">
+            <div class="kard-images d-flex flex-column">
               <img
                 src="../assets/designs/card-7b/balloon.jpg"
                 alt="Vines"
@@ -180,7 +181,7 @@
               src="../assets/designs/card-food/card-food-all.png"
               alt="All the foods"
               class="card-img"
-              style="padding:0"
+              style="padding: 0"
             />
           </div>
           <div class="overlay">
@@ -345,6 +346,7 @@ h1.title {
 
   .kard-images {
     flex-grow: 1;
+    justify-content: space-between;
     img {
       display: flex;
       width: 60em;
@@ -358,7 +360,7 @@ h1.title {
 #card-2 {
   width: 50%;
   img {
-    width: 30em;
+    max-width: 25vw;
   }
   .kard-text {
     align-self: flex-end;
@@ -429,8 +431,13 @@ h1.title {
 
 #card-6,
 #card-7b {
+  // flex-grow: 0 !important;
+  flex-shrink: 1;
   .kard-images {
-    max-width: 20vw;
+    flex-grow: 1;
+  }
+  .kard-text {
+    max-width: 40%;
   }
 }
 #card-8 {
@@ -479,6 +486,5 @@ h1.title {
 #card-11,
 #card-13 {
   background-color: $bg-green;
-  
 }
 </style>
