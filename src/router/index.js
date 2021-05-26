@@ -69,6 +69,46 @@ const routes = [
     ],
   },
   {
+    path: "/projects/eco-sparks",
+    name: "EcoSpark",
+    component: () =>
+      import(/* webpackChunkName: "eco_spark" */ "../views/EcoSpark.vue"),
+    children: [
+      {
+        path: "description",
+        name: "EcoSparkDescription",
+        component: () =>
+          import(
+            /* webpackChunkName: "eco_spark_description" */ "../components/EcoSparkDescription.vue"
+          ),
+      },
+      {
+        path: "site-map",
+        name: "EcoSparkSiteMap",
+        component: () =>
+          import(
+            /* webpackChunkName: "eco_spark_site_map" */ "../components/EcoSparkSiteMap.vue"
+          ),
+      },
+      {
+        path: "mood-board",
+        name: "EcoSparkMoodBoard",
+        component: () =>
+          import(
+            /* webpackChunkName: "eco_spark_mood_board" */ "../components/EcoSparkMoodBoard.vue"
+          ),
+      },
+      {
+        path: "prototype",
+        name: "EcoSparkPrototype",
+        component: () =>
+          import(
+            /* webpackChunkName: "eco_spark_prototype" */ "../components/EcoSparkPrototype.vue"
+          ),
+      },
+    ]  
+  },
+  {
     path: "/volunteer",
     name: "Volunteer",
     component: () =>

@@ -12,7 +12,7 @@
       <div class="home-button">
         <router-link to="/"> <home-button /></router-link>
       </div>
-      <div>
+      <div class="d-flex flex-column nav-row">
         <ul class="primary-nav">
           <li>
             <a
@@ -25,7 +25,7 @@
                   : 'passions'
               "
               :class="navClass('passions')"
-              >Passion</a
+              >Passion {{ currentSelection === "passions" ? "-" : "+" }}</a
             >
           </li>
 
@@ -40,7 +40,8 @@
                   : 'volunteering'
               "
               :class="navClass('volunteering')"
-              >Volunteering</a
+              >Volunteering
+              {{ currentSelection === "volunteering" ? "-" : "+" }}</a
             >
           </li>
 
@@ -60,7 +61,7 @@
           </li>
           <li>
             <a
-              href="/projects/playin_tune/mood-board"
+              href="#"
               @click="
                 currentSelection = currentSelection
                   ? currentSelection === 'projects'
@@ -182,7 +183,7 @@
             >
           </li>
         </ul>
-        <!-- <ul
+        <ul
           v-if="currentSelection === 'projects'"
           class="secondary-nav"
           id="projects-nav"
@@ -199,10 +200,27 @@
             <router-link
               to="/projects/playin_tune/mood-board"
               :class="secondaryNavClass('playin_tune')"
-              >PlayinTune</router-link
             >
+              PlayinTune
+            </router-link>
           </li>
-        </ul> -->
+          <li
+            @click="
+              secondarySelection = secondarySelection
+                ? secondarySelection === 'eco_sparks'
+                  ? null
+                  : 'eco_sparks'
+                : 'eco_sparks'
+            "
+          >
+            <router-link
+              to="/projects/eco-sparks/description"
+              :class="secondaryNavClass('eco_sparks')"
+            >
+              eco-Sparks
+            </router-link>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
@@ -260,9 +278,8 @@ export default {
   },
   watch: {
     $route() {
-      console.log(
-        `Route name: ${this.$route.name} | Route id: ${this.$route.id}`
-      );
+      console.log(`Route name: ${this.$route.name} | ${this.$route.matched}`);
+      console.log(this.$route);
       const bgColor = getFromObject(ROUTE_COLOR, this.$route.name, "#65d6d1");
       this.bgColor = bgColor;
     },
@@ -280,21 +297,23 @@ nav.navbar {
   h1 {
     width: 100%;
   }
+  .nav-row {
+    width: 100%;
+    ul {
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-flow: row wrap;
 
-  ul {
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-
-    li {
-      margin-right: 2em;
-      font-size: 16pt;
-      font-family: "Domine", serif;
-      font-weight: bold;
-      a {
-        color: white;
+      li {
+        margin-right: 2em;
+        font-size: 16pt;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        a {
+          color: white;
+        }
       }
     }
   }
