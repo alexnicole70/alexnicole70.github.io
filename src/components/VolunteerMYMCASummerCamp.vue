@@ -887,23 +887,9 @@
               <tspan x="125.61" y="144">jects</tspan>
             </text>
             <text class="cls-31" transform="translate(172.15 109.07)">
-              <tspan class="cls-23">M</tspan>
-              <tspan x="57.42" y="0">et</tspan>
-              <tspan class="cls-30" x="112.68" y="0">r</tspan>
-              <tspan x="140.88" y="0">opolitan</tspan>
-              <tspan class="cls-32" x="384.96" y="0"></tspan>
-              <tspan x="397.14" y="0">Y</tspan>
-              <tspan class="cls-33" x="438.06" y="0">M</tspan>
-              <tspan x="496.08" y="0">C</tspan>
-              <tspan class="cls-34" x="537.96" y="0">A</tspan>
-              <tspan x="579.6" y="0" xml:space="preserve">Singapo</tspan>
-              <tspan class="cls-35" x="832.01" y="0">r</tspan>
-              <tspan x="860.21" y="0">e-</tspan>
-              <tspan class="cls-34" x="915.83" y="0"></tspan>
-              <tspan class="cls-36" x="927.95" y="0">V</tspan>
-              <tspan x="967.91" y="0">oluntee</tspan>
-              <tspan class="cls-37" x="1191.29" y="0">r</tspan>
-              <tspan x="1218.41" y="0" xml:space="preserve">Experience</tspan>
+              <tspan>
+                Metropolitan YMCA Singapore - Volunteer Experience
+              </tspan>
             </text>
             <polyline
               class="cls-38"
