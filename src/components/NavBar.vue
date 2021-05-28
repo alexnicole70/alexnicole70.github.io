@@ -70,7 +70,7 @@
                   : 'projects'
               "
               :class="navClass('projects')"
-              >UX Project</a
+              >UX Project {{ currentSelection === "projects" ? "-" : "+" }}</a
             >
           </li>
           <li>

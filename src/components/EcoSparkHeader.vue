@@ -268,7 +268,7 @@
               />
             </g>
           </g>
-          <g id="Logo">
+          <g id="Logo" transform="translate(0, -100)">
             <ellipse
               class="cls-6"
               cx="956.41"
@@ -333,6 +333,13 @@
         >
           <router-link to="prototype">Prototype</router-link>
         </playin-tune-nav-button>
+        <playin-tune-nav-button
+          :isActive="$route.name === 'EcoSparkReflection'"
+          id="es-reflection"
+          class="nav-button"
+        >
+          <router-link to="reflection">Reflection</router-link>
+        </playin-tune-nav-button>
       </div>
     </div>
   </div>
@@ -361,7 +368,7 @@ export default {
   margin-left: -100%; /* required */
 }
 .overlay {
-    justify-content: flex-end;
+  justify-content: flex-end;
   .nav-row {
     .nav-button {
       width: 20rem;
