@@ -32,7 +32,7 @@
       id="sketches"
       class="nav-button"
     >
-      <router-link to="sketches"> Sketches </router-link>
+      <router-link to="sketches" class="link"> Sketches </router-link>
     </playin-tune-nav-button>
   </div>
 </template>
@@ -48,6 +48,9 @@ export default {
   .nav-button {
     width: 20rem;
     margin: 0 0.5rem;
+    .link {
+      color: #ffffff;
+    }
   }
 
   justify-content: space-evenly;

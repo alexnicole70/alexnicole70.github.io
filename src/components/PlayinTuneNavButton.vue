@@ -27,4 +27,10 @@ export default {
   font-family: filson-soft, sans-serif;
   fill: #ffffff;
 }
+a:visited {
+  fill: #ffffff;
+}
+a {
+  fill: #ffffff;
+}
 </style>
