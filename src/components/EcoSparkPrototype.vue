@@ -62,7 +62,7 @@ export default {};
 <style lang="scss" scoped>
 .top-group {
   justify-content: space-evenly;
-  padding: 1vw;
+  padding: 3vw;
   .prototype-link {
     justify-content: center;
     align-items: flex-start;
