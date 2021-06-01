@@ -106,7 +106,15 @@ const routes = [
             /* webpackChunkName: "eco_spark_prototype" */ "../components/EcoSparkPrototype.vue"
           ),
       },
-    ]  
+      {
+        path: "reflection",
+        name: "EcoSparkReflection",
+        component: () =>
+          import(
+            /* webpackChunkName: "eco_spark_reflection" */ "../components/EcoSparkReflection.vue"
+          ),
+      },
+    ],
   },
   {
     path: "/volunteer",

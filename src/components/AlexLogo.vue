@@ -47,7 +47,7 @@ export default {
   props: ["colors"]
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .st1 {
   fill: none;
   stroke: #ffffff;
