@@ -12,7 +12,7 @@
             data-name="New Pattern 4"
             width="252.36"
             height="437.11"
-            patternTransform="translate(98.61 -28.36)"
+            patternTransform="translate(-151.25)"
             patternUnits="userSpaceOnUse"
             viewBox="0 0 252.36 437.11"
           >
@@ -217,44 +217,16 @@
             </g>
           </pattern>
         </defs>
-        <g class="cls-3">
+        <g>
           <g id="background" transform="scale(1, 1.2)">
-            <rect class="cls-4" y="-1" width="1916" height="991" />
-            <rect class="cls-5" y="-1" width="1919" height="991" />
-            <g class="cls-6">
-              <path
-                class="cls-7"
-                d="M1658.22,263.86H1691l-27.73,14.7a4.63,4.63,0,0,1-6.7-4.91Z"
-              />
-              <path
-                class="cls-7"
-                d="M1840,273.65a4.63,4.63,0,0,1-6.7,4.91l-27.73-14.7h32.77Z"
-              />
-              <path
-                class="cls-7"
-                d="M1831.69,224.7l3.11,18.23h-68.72l-15.64-8.28a4.55,4.55,0,0,0-4.3,0l-15.64,8.28h-68.72l3.1-18.23Z"
-              />
-              <path
-                class="cls-7"
-                d="M1824.2,180.64l3.93,23.13H1668.45l3.93-23.13a4.43,4.43,0,0,0-.06-1.85h151.94A4.61,4.61,0,0,0,1824.2,180.64Z"
-              />
-              <polygon
-                class="cls-7"
-                points="1632.82 138.96 1863.76 138.96 1844.52 157.86 1652.06 157.86 1632.82 138.96"
-              />
-              <path
-                class="cls-7"
-                d="M1763,23.5H1733.6l3-6.07L1744.14,2a4.62,4.62,0,0,1,8.3,0L1760,17.43Z"
-              />
-              <polygon
-                class="cls-7"
-                points="1786.12 70.77 1710.46 70.77 1723.35 44.43 1773.23 44.43 1786.12 70.77"
-              />
-              <path
-                class="cls-7"
-                d="M1892.58,110.65l-7.51,7.38H1611.51l-7.51-7.38a4.67,4.67,0,0,1,2.56-7.94l75.23-11h133l75.24,11A4.67,4.67,0,0,1,1892.58,110.65Z"
-              />
-            </g>
+            <rect class="cls-3" width="1919" height="991" />
+          </g>
+          <g>
+            <path
+              id="Flower"
+              class="cls-4"
+              d="M1656.62,225.38c-.19-10.94,2.92-15.94,6-18.46,4.66-3.79,14.34-6.56,18.24-11.62,2.67-3.47,1.33-5.15,4-9.92a30.16,30.16,0,0,1,11.38-11.19,36.75,36.75,0,0,1-4.83-13.83c-.73-5.8.55-7.86-1.16-12.77s-3.68-5-5.26-9.79c-1.41-4.28-.27-5.52-.71-11.62-.77-10.67-4.66-12-3.37-18.12.87-4.13,3.74-8.78,8.26-10.78,6.46-2.87,13.48.94,17.16,2.94,6.51,3.52,5.49,5.9,11.5,9,6.74,3.44,8,.44,17.83,4.21,4.39,1.68,6.42,3.15,12.27,4.85a67.62,67.62,0,0,0,7.57,1.72c5.84-9,11.69-12.09,16.06-13.24s6.86-.17,10.66-2.43c5.61-3.35,3.87-7.64,9.15-12.26,4-3.52,5.4-1.34,19.14-6.48,5.64-2.11,6.89-3,9.24-2.44,5,1.24,8.53,7.66,8.82,13.38.31,6.13-3.35,6.62-4.4,13.41-1.51,9.88,5.67,12.61,4.36,23.6-.58,4.88-2.12,5.32-3,12a47.08,47.08,0,0,0,.23,13.34A38.92,38.92,0,0,1,1842.88,170c5.51,6.45,4.26,9.92,9.91,14.91,6.69,5.91,10.72,3.06,17.93,9.72a26.46,26.46,0,0,1,7.69,12.41c.77,2.84,2.19,8.14-.47,11.2-2.2,2.53-5,.95-10.83,3.19-5.71,2.19-4.86,4.37-9.88,6.36-6.87,2.71-9.45-1-16.55,1.74-5.67,2.17-4.92,4.88-9.5,5.72-6,1.1-8.94-3.13-14.94-1.87a14.11,14.11,0,0,0-7,4.05c1.14,8.4-.62,13.83-2.39,17.21-3.61,6.87-8.9,8.31-11.48,15.15-2.17,5.76,1.25,7-.06,14.31-.26,1.47-2.49,12.9-12.37,18.05-1.79.93-6.45,3.36-12.18,2.09-6.4-1.41-9.85-7.14-12.79-12-8.09-13.54-3.2-19.38-10.07-25.77-5.61-5.21-11.12-3.43-16.46-10.26a23,23,0,0,1-4.3-9.49c-1.62-1.21-11.44-8.31-23.89-5.58-6.52,1.43-6.66,5.89-13.12,7-7.76,1.3-9.6-4-22.88-5.83-7-1-10,0-12-2.41C1652.42,236.53,1654.41,230.29,1656.62,225.38Z"
+            />
           </g>
           <g id="text">
             <g>
@@ -275,335 +247,7 @@
                 points="489.84 317 545.92 317 545.92 34.06 489.84 34.06"
               />
             </g>
-            <!-- <g class="exp-card" id="exp-card-1">
-                <text
-                  class="cls-14"
-                  transform="translate(-68.11 482.46) scale(1.09 1)"
-                >
-                  NUS Cent
-                  <tspan class="cls-15" x="170.45" y="0">r</tspan>
-                  <tspan x="183.61" y="0">e for</tspan>
-                  <tspan class="cls-16" x="274.84" y="0">F</tspan>
-                  <tspan x="296.29" y="0">amily</tspan>
-                  <tspan x="0" y="48">and</tspan>
-                  <tspan class="cls-17" x="76.29" y="48">P</tspan>
-                  <tspan x="101.27" y="48">opulation Resea</tspan>
-                  <tspan class="cls-15" x="386.99" y="48">r</tspan>
-                  <tspan x="400.16" y="48">ch</tspan>
-                </text>
-                <polyline
-                  class="cls-18"
-                  points="386.84 917 442.92 917 442.92 424.06 386.84 424.06"
-                />
-                <text
-                  class="cls-19"
-                  transform="translate(-97.51 389.04) scale(1.09 1)"
-                >
-                  Jul 2019- Mar 2020
-                </text>
-                <text
-                  class="cls-20"
-                  transform="translate(-67.04 582.47) scale(1.09 1)"
-                >
-                  - I was pa
-                  <tspan class="cls-21" x="83.35" y="0">r</tspan>
-                  <tspan x="90.57" y="0">t of a</tspan>
-                  <tspan class="cls-15" x="140.12" y="0">r</tspan>
-                  <tspan x="146.66" y="0">esea</tspan>
-                  <tspan class="cls-15" x="188.16" y="0">r</tspan>
-                  <tspan x="194.71" y="0">ch team in</tspan>
-                  <tspan class="cls-17" x="286.38" y="0">v</tspan>
-                  <tspan x="295.87" y="0">estigating the</tspan>
-                  <tspan x="0" y="24">p</tspan>
-                  <tspan class="cls-15" x="11.08" y="24">r</tspan>
-                  <tspan x="17.63" y="24">e-natal and post-natal d</tspan>
-                  <tspan class="cls-17" x="223.4" y="24">ev</tspan>
-                  <tspan x="243.09" y="24">elopment of infants in</tspan>
-                  <tspan class="cls-15" x="0" y="48">r</tspan>
-                  <tspan x="6.54" y="48">elation</tspan>
-                  <tspan class="cls-22" x="70.03" y="48">t</tspan>
-                  <tspan x="76.26" y="48">o their family bac</tspan>
-                  <tspan class="cls-23" x="226.62" y="48">k</tspan>
-                  <tspan x="236.22" y="48">g</tspan>
-                  <tspan class="cls-22" x="247.31" y="48">r</tspan>
-                  <tspan x="253.85" y="48">ound.</tspan>
-                  <tspan x="0" y="96">-</tspan>
-                  <tspan class="cls-24" x="10.59" y="96">F</tspan>
-                  <tspan class="cls-22" x="21.58" y="96">r</tspan>
-                  <tspan x="28.11" y="96">om heading down</tspan>
-                  <tspan class="cls-23" x="189.71" y="96">t</tspan>
-                  <tspan x="195.94" y="96">o hospitals</tspan>
-                  <tspan class="cls-22" x="296.48" y="96">t</tspan>
-                  <tspan x="302.71" y="96">o su</tspan>
-                  <tspan class="cls-25" x="339.89" y="96">r</tspan>
-                  <tspan class="cls-17" x="346.8" y="96">ve</tspan>
-                  <tspan x="366.49" y="96">y</tspan>
-                  <tspan x="0" y="120">pa</tspan>
-                  <tspan class="cls-21" x="21.8" y="120">r</tspan>
-                  <tspan x="29.01" y="120">ticipants, following up with them</tspan>
-                  <tspan class="cls-26" x="316.31" y="120">o</tspan>
-                  <tspan class="cls-17" x="327.36" y="120">v</tspan>
-                  <tspan x="336.85" y="120">er the</tspan>
-                  <tspan x="0" y="144">
-                    phone, and conducting the experiements with
-                  </tspan>
-                  <tspan x="0" y="168">their child</tspan>
-                  <tspan class="cls-15" x="85.17" y="168">r</tspan>
-                  <tspan x="91.71" y="168">
-                    en, this experiment taught me about
-                  </tspan>
-                  <tspan x="0" y="192">how</tspan>
-                  <tspan class="cls-22" x="42.12" y="192">t</tspan>
-                  <tspan x="48.35" y="192">o communicate confidently and</tspan>
-                  <tspan x="0" y="216">p</tspan>
-                  <tspan class="cls-22" x="11.08" y="216">r</tspan>
-                  <tspan x="17.62" y="216">o</tspan>
-                  <tspan class="cls-27" x="28.82" y="216">f</tspan>
-                  <tspan x="35.2" y="216">essionall</tspan>
-                  <tspan class="cls-28" x="112.14" y="216">y</tspan>
-                  <tspan x="120.6" y="216" xml:space="preserve">.</tspan>
-                </text>
-              </g>
-              <g class="exp-card" id="exp-card-2">
-                <text
-                  class="cls-29"
-                  transform="translate(741.96 580.47) scale(1.09 1)"
-                >
-                  - Under D
-                  <tspan class="cls-30" x="80.85" y="0">r</tspan>
-                  <tspan x="86.38" y="0">. Matthew Lim, I ef</tspan>
-                  <tspan class="cls-27" x="246.71" y="0">f</tspan>
-                  <tspan x="253.09" y="0">ectuated a study</tspan>
-                  <tspan x="0" y="24">examining the</tspan>
-                  <tspan class="cls-15" x="127.99" y="24">r</tspan>
-                  <tspan x="134.53" y="24">elationship between maternal</tspan>
-                  <tspan x="0" y="48">beh</tspan>
-                  <tspan class="cls-26" x="32.39" y="48">a</tspan>
-                  <tspan x="42.96" y="48">viour and a child</tspan>
-                  <tspan class="cls-31" x="185.45" y="48">’</tspan>
-                  <tspan x="187.91" y="48">s emotional</tspan>
-                  <tspan class="cls-15" x="295.31" y="48">r</tspan>
-                  <tspan x="301.85" y="48">esponse.</tspan>
-                  <tspan x="0" y="96">
-                    - Conscientiousness was a necessity as I was put
-                  </tspan>
-                  <tspan x="0" y="120">in cha</tspan>
-                  <tspan class="cls-15" x="52.32" y="120">r</tspan>
-                  <tspan x="58.87" y="120">ge of o</tspan>
-                  <tspan class="cls-15" x="119.04" y="120">r</tspan>
-                  <tspan x="125.59" y="120">ganising the experiment</tspan>
-                  <tspan class="cls-31" x="335.16" y="120">’</tspan>
-                  <tspan x="337.63" y="120">s</tspan>
-                  <tspan x="0" y="144">e</tspan>
-                  <tspan class="cls-22" x="10.33" y="144">x</tspan>
-                  <tspan x="19.86" y="144">ecution: scheduling pa</tspan>
-                  <tspan class="cls-21" x="215.19" y="144">r</tspan>
-                  <tspan x="222.4" y="144">ticipants, assigning</tspan>
-                  <tspan class="cls-22" x="0" y="168">r</tspan>
-                  <tspan x="6.53" y="168">oles and</tspan>
-                  <tspan class="cls-15" x="85.21" y="168">r</tspan>
-                  <tspan x="91.76" y="168">esponsibilites</tspan>
-                  <tspan class="cls-22" x="216.38" y="168">t</tspan>
-                  <tspan x="222.61" y="168">o the other team</tspan>
-                  <tspan x="0" y="192">members,</tspan>
-                  <tspan class="cls-15" x="92.74" y="192">r</tspan>
-                  <tspan x="99.29" y="192">eccomending imp</tspan>
-                  <tspan class="cls-22" x="256.3" y="192">r</tspan>
-                  <tspan class="cls-32" x="262.83" y="192">o</tspan>
-                  <tspan class="cls-17" x="273.89" y="192">v</tspan>
-                  <tspan x="283.38" y="192">ements</tspan>
-                  <tspan class="cls-22" x="354.17" y="192">t</tspan>
-                  <tspan x="360.4" y="192">o the</tspan>
-                  <tspan x="0" y="216">e</tspan>
-                  <tspan class="cls-22" x="10.33" y="216">x</tspan>
-                  <tspan x="19.86" y="216">erimental flo</tspan>
-                  <tspan class="cls-33" x="129.24" y="216">w</tspan>
-                  <tspan x="143.1" y="216">, etc.</tspan>
-                  <tspan x="0" y="264">- Additionall</tspan>
-                  <tspan class="cls-28" x="102.56" y="264">y</tspan>
-                  <tspan x="111.01" y="264">, I conducted a lite</tspan>
-                  <tspan class="cls-34" x="268.82" y="264">r</tspan>
-                  <tspan x="275.15" y="264">atu</tspan>
-                  <tspan class="cls-15" x="303.28" y="264">r</tspan>
-                  <tspan x="309.82" y="264">e</tspan>
-                  <tspan class="cls-15" x="325.02" y="264">r</tspan>
-                  <tspan class="cls-17" x="331.56" y="264">e</tspan>
-                  <tspan x="341.76" y="264">view</tspan>
-                  <tspan x="0" y="288">concerning the long-term impact of pa</tspan>
-                  <tspan class="cls-15" x="334.5" y="288">r</tspan>
-                  <tspan x="341.04" y="288">ental</tspan>
-                  <tspan x="0" y="312">metacognitions on child</tspan>
-                  <tspan class="cls-15" x="209.76" y="312">r</tspan>
-                  <tspan x="216.3" y="312">e</tspan>
-                  <tspan class="cls-35" x="226.63" y="312">n</tspan>
-                  <tspan class="cls-31" x="236.84" y="312">’</tspan>
-                  <tspan x="239.3" y="312">s identity formation</tspan>
-                </text>
-                <text
-                  class="cls-36"
-                  transform="translate(738.89 482.46) scale(1.09 1)"
-                >
-                  Unde
-                  <tspan class="cls-15" x="91.76" y="0">r</tspan>
-                  <tspan x="104.92" y="0">g</tspan>
-                  <tspan class="cls-37" x="127.36" y="0">r</tspan>
-                  <tspan x="140.12" y="0">aduate Resea</tspan>
-                  <tspan class="cls-38" x="381.8" y="0">r</tspan>
-                  <tspan class="cls-39" x="394.96" y="0">ch</tspan>
-                  <tspan x="0" y="48">Oppo</tspan>
-                  <tspan class="cls-21" x="95.2" y="48">r</tspan>
-                  <tspan x="109.71" y="48">tunity (NUS)</tspan>
-                </text>
-                <polyline
-                  class="cls-13"
-                  points="766.92 424.06 710.84 424.06 710.84 917 766.92 917"
-                />
-                <polyline
-                  class="cls-13"
-                  points="1193.84 917 1249.92 917 1249.92 424.06 1193.84 424.06"
-                />
-                <text
-                  class="cls-40"
-                  transform="translate(709.49 389.04) scale(1.09 1)"
-                >
-                  Jul 2019- N
-                  <tspan class="cls-41" x="200.92" y="0">o</tspan>
-                  <tspan x="223.03" y="0">v 2019</tspan>
-                </text>
-              </g>
-              <g class="exp-card" id="exp-card-3">
-                <text
-                  class="cls-14"
-                  transform="translate(1516.89 478.46) scale(1.09 1)"
-                >
-                  Civil
-                  <tspan class="cls-42" x="84.43" y="0">A</tspan>
-                  <tspan class="cls-43" x="109.55" y="0">viation</tspan>
-                  <tspan class="cls-44" x="237.95" y="0">A</tspan>
-                  <tspan x="263.83" y="0">uthority of</tspan>
-                  <tspan x="0" y="48">Singapo</tspan>
-                  <tspan class="cls-15" x="144.96" y="48">r</tspan>
-                  <tspan x="158.13" y="48">e (Singapo</tspan>
-                  <tspan class="cls-15" x="347.85" y="48">r</tspan>
-                  <tspan x="361.02" y="48">e</tspan>
-                  <tspan class="cls-45" x="0" y="96">A</tspan>
-                  <tspan x="25.12" y="96">viai</tspan>
-                  <tspan class="cls-46" x="85.66" y="96">t</tspan>
-                  <tspan x="98.34" y="96">on Academy)</tspan>
-                </text>
-                <polyline
-                  class="cls-18"
-                  points="1544.92 420.06 1488.84 420.06 1488.84 913 1544.92 913"
-                />
-                <text
-                  class="cls-19"
-                  transform="translate(1487.49 385.04) scale(1.09 1)"
-                >
-                  Jul 2018- N
-                  <tspan class="cls-41" x="200.92" y="0">o</tspan>
-                  <tspan x="223.03" y="0">v 2018</tspan>
-                </text>
-                <text
-                  class="cls-20"
-                  transform="translate(1517.96 611.47) scale(1.09 1)"
-                >
-                  - My 2 main
-                  <tspan class="cls-15" x="106.97" y="0">r</tspan>
-                  <tspan x="113.52" y="0">esea</tspan>
-                  <tspan class="cls-15" x="155.02" y="0">r</tspan>
-                  <tspan x="161.56" y="0">ch p</tspan>
-                  <tspan class="cls-22" x="198.79" y="0">r</tspan>
-                  <tspan x="205.32" y="0">ojects in</tspan>
-                  <tspan class="cls-32" x="278.6" y="0">v</tspan>
-                  <tspan x="288.08" y="0">ol</tspan>
-                  <tspan class="cls-17" x="303.76" y="0">v</tspan>
-                  <tspan x="313.25" y="0">ed p</tspan>
-                  <tspan class="cls-22" x="350.64" y="0">r</tspan>
-                  <tspan x="357.18" y="0">oposing</tspan>
-                  <tspan x="0" y="24">methods</tspan>
-                  <tspan class="cls-22" x="82.76" y="24">t</tspan>
-                  <tspan x="88.99" y="24">o imp</tspan>
-                  <tspan class="cls-22" x="138.35" y="24">r</tspan>
-                  <tspan class="cls-32" x="144.88" y="24">o</tspan>
-                  <tspan class="cls-17" x="155.94" y="24">v</tspan>
-                  <tspan x="165.43" y="24">e</tspan>
-                  <tspan class="cls-16" x="180.62" y="24">F</tspan>
-                  <tspan x="191.54" y="24">acebook engagement</tspan>
-                  <tspan x="0" y="48">amongst the academ</tspan>
-                  <tspan class="cls-47" x="186.63" y="48">y</tspan>
-                  <tspan class="cls-31" x="196.28" y="48">’</tspan>
-                  <tspan x="198.74" y="48">s alumni, and making</tspan>
-                  <tspan class="cls-15" x="0" y="72">r</tspan>
-                  <tspan x="6.54" y="72">eccomendations</tspan>
-                  <tspan class="cls-22" x="157.64" y="72">t</tspan>
-                  <tspan x="163.87" y="72">o el</tspan>
-                  <tspan class="cls-17" x="194.75" y="72">e</tspan>
-                  <tspan class="cls-32" x="204.95" y="72">v</tspan>
-                  <tspan x="214.42" y="72">ate the ambiance during</tspan>
-                  <tspan x="0" y="96">an upcoming</tspan>
-                  <tspan class="cls-15" x="119.29" y="96">r</tspan>
-                  <tspan class="cls-17" x="125.83" y="96">e</tspan>
-                  <tspan class="cls-32" x="136.04" y="96">v</tspan>
-                  <tspan x="145.51" y="96">amp of ce</tspan>
-                  <tspan class="cls-21" x="233.21" y="96">r</tspan>
-                  <tspan x="240.43" y="96">tain facilities.</tspan>
-                  <tspan x="0" y="144">-</tspan>
-                  <tspan class="cls-37" x="5.72" y="144"></tspan>
-                  <tspan x="10.2" y="144">The ta</tspan>
-                  <tspan class="cls-15" x="65.45" y="144">r</tspan>
-                  <tspan x="71.99" y="144">get audience ac</tspan>
-                  <tspan class="cls-22" x="209.83" y="144">r</tspan>
-                  <tspan x="216.37" y="144">oss both p</tspan>
-                  <tspan class="cls-22" x="308.32" y="144">r</tspan>
-                  <tspan x="314.85" y="144">ojects was</tspan>
-                  <tspan x="0" y="168">expansi</tspan>
-                  <tspan class="cls-17" x="67.45" y="168">v</tspan>
-                  <tspan x="76.94" y="168">e, and I had</tspan>
-                  <tspan class="cls-22" x="181.49" y="168">t</tspan>
-                  <tspan x="187.72" y="168">o be adaptable</tspan>
-                  <tspan class="cls-23" x="321.59" y="168">t</tspan>
-                  <tspan x="327.82" y="168">o cater</tspan>
-                  <tspan class="cls-15" x="0" y="192">r</tspan>
-                  <tspan x="6.54" y="192">esea</tspan>
-                  <tspan class="cls-15" x="48.05" y="192">r</tspan>
-                  <tspan x="54.59" y="192">ch methods</tspan>
-                  <tspan class="cls-22" x="163.5" y="192">t</tspan>
-                  <tspan x="169.73" y="192">o each population.</tspan>
-                  <tspan x="0" y="240">-</tspan>
-                  <tspan class="cls-37" x="5.72" y="240"></tspan>
-                  <tspan x="10.2" y="240">The end p</tspan>
-                  <tspan class="cls-23" x="96.69" y="240">r</tspan>
-                  <tspan x="103.22" y="240">oducts</tspan>
-                  <tspan class="cls-15" x="168.24" y="240">r</tspan>
-                  <tspan x="174.78" y="240">ecei</tspan>
-                  <tspan class="cls-17" x="210.23" y="240">v</tspan>
-                  <tspan x="219.73" y="240">ed positi</tspan>
-                  <tspan class="cls-17" x="293.84" y="240">v</tspan>
-                  <tspan x="303.33" y="240">e</tspan>
-                  <tspan class="cls-15" x="318.52" y="240">r</tspan>
-                  <tspan x="325.07" y="240">eceptions</tspan>
-                  <tspan x="0" y="264">ac</tspan>
-                  <tspan class="cls-22" x="21.02" y="264">r</tspan>
-                  <tspan x="27.55" y="264">oss depa</tspan>
-                  <tspan class="cls-21" x="107.11" y="264">r</tspan>
-                  <tspan x="114.33" y="264">tments and the di</tspan>
-                  <tspan class="cls-15" x="267.08" y="264">r</tspan>
-                  <tspan x="273.62" y="264">ec</tspan>
-                  <tspan class="cls-22" x="294.26" y="264">t</tspan>
-                  <tspan x="300.49" y="264" xml:space="preserve">or himself.</tspan>
-                </text>
-              </g> -->
           </g>
-          <!-- <g id="pictures">
-              <polyline
-                class="cls-13"
-                points="1328.07 626.46 1379 667 1331.11 714.89"
-              />
-              <polyline
-                class="cls-13"
-                points="634 714.89 583.07 674.35 630.95 626.46"
-              />
-            </g> -->
         </g>
       </svg>
     </div>
@@ -711,22 +355,10 @@ export default {
 .block .overlay {
   margin-left: -100%; /* required */
 }
-.cls-1,
+
 .cls-13,
 .cls-18 {
   fill: none;
-}
-
-.cls-2 {
-  fill: #fed67e;
-}
-
-.cls-3 {
-  isolation: isolate;
-}
-
-.cls-4 {
-  fill: #fff8ef;
 }
 
 .cls-5 {
@@ -918,5 +550,23 @@ export default {
 
 .cls-47 {
   letter-spacing: 0.01em;
+}
+
+.cls-1 {
+  fill: none;
+}
+
+.cls-2 {
+  fill: #fed67e;
+}
+
+.cls-3 {
+  opacity: 0.15;
+  fill: url(#New_Pattern_4);
+}
+
+.cls-4 {
+  fill: #65d6d1;
+  opacity: 0.5;
 }
 </style>
